@@ -35,7 +35,7 @@ h3 {
 
 span {
   text-decoration: underline;
-  font-family: cursive;
+  font-family: sans-serif;
   color: #1C6DD0;
 }
 
@@ -180,11 +180,11 @@ hr {
 
 @media (max-width:900px){
   .cloud-1 {
-    visibility: collapse;
+    visibility: hidden;
   }
 
   .cloud-2 {
-    visibility: collapse;
+    visibility: hidden;
   }
 
   .mountain-image {
