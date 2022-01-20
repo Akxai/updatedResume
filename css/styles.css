@@ -217,6 +217,10 @@ hr {
     float: inherit;
     width: 150px;
   }
+  
+  .contact-text {
+    padding: 0 30px 0;
+  }
 
   .final-hr {
     width: 35%;
