@@ -1,0 +1,228 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", serif;
+  background-color: #F3F1F5;
+}
+
+a{
+  color: #212121;
+}
+
+a:hover {
+  color: #2F38AF;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: "Rock Salt", serif;
+  font-size: 400%;
+  color: #2F3A8F;
+  margin-bottom: 15px;
+  line-height: 2;
+}
+
+h2 {
+  color: #2F3A8F;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: monospace;
+  color: #2F3A8F;
+}
+
+span {
+  text-decoration: underline;
+  font-family: cursive;
+  color: #1C6DD0;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: thick;
+  border-color: grey;
+  margin: 60px auto;
+}
+
+/* Containers */
+
+.top-container {
+  background-color: #D9D7F1;
+  padding: 13% 0 0 0;
+}
+
+.middle-container {
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #212121;
+  padding: 50px 0 20px;
+}
+
+/* Cloud Images/ */
+
+.cloud-1 {
+  height: 15%;
+  width: 15%;
+  position: absolute;
+  top: 15%;
+  left: 70%;
+}
+
+.cloud-2 {
+  height: 12%;
+  width: 12%;
+  position: absolute;
+  left: 15%;
+  bottom: 50%;
+}
+
+/* Mountain Image */
+
+.mountain-image {
+  position: relative;
+  top: 4px;
+}
+
+/* Text Under My Name */
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #2F3A8F;
+}
+
+/* Profile Picture */
+
+.profile-picture {
+  border-radius: 360px;
+  width: 15%;
+  margin: 50px auto 30px auto;
+}
+
+/* Skills */
+
+/* Skill-1 */
+
+.skill-row-1 {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #FFBC97;
+}
+
+.programming-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+/* Skill-2 */
+
+.skill-row-2 {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #FFBC97;
+}
+
+.fast-food-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 30px;
+}
+
+/* Contact Info */
+
+.contact-text {
+  margin: 30px auto;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.final-hr {
+  width: 13%;
+  border-style: inset;
+  border-width: thin;
+  margin: 0 auto 20px auto;
+}
+
+/* Footer Links */
+
+.footer-link {
+  text-decoration: none;
+  color: #F3F1F5;
+  margin: 20px;
+}
+
+.footer-link:hover {
+  color: #2F38AF;
+}
+
+.copyright {
+  padding: 20px 0 0 0;
+}
+
+@media (max-width:900px){
+  .cloud-1 {
+    visibility: collapse;
+  }
+
+  .cloud-2 {
+    visibility: collapse;
+  }
+
+  .mountain-image {
+    width: 80%;
+    height: 80%;
+  }
+
+  .profile-picture {
+    width: 30%;
+  }
+
+  .text-about-me {
+    padding: 20px 30px 0;
+  }
+
+  .skill-row-1 {
+   text-align: left;
+  }
+
+  .programming-image {
+    float: inherit;
+    width: 150px;
+  }
+
+  .skill-row-2 {
+    text-align: right;
+  }
+
+  .fast-food-image {
+    float: inherit;
+    width: 150px;
+  }
+
+  .final-hr {
+    width: 200px;
+    border-style: inset;
+    border-width: thin;
+    margin: 0 auto 20px auto;
+  }
+
+}
