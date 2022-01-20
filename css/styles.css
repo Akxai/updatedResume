@@ -180,11 +180,11 @@ hr {
 
 @media (max-width:900px){
   .cloud-1 {
-    visibility: hidden;
+    width: 0;
   }
 
   .cloud-2 {
-    visibility: hidden;
+    width: 0;
   }
 
   .mountain-image {
@@ -219,7 +219,7 @@ hr {
   }
 
   .final-hr {
-    width: 200px;
+    width: 35%;
     border-style: inset;
     border-width: thin;
     margin: 0 auto 20px auto;
