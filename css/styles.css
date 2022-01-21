@@ -66,19 +66,27 @@ hr {
 /* Cloud Images/ */
 
 .cloud-1 {
-  height: 15%;
+/*   height: 15%;
   width: 15%;
   position: absolute;
   top: 15%;
-  left: 70%;
+  left: 70%; */
+  position: absolute;
+  top: 50px;
+  right: 400px;
+  width: 15%;
 }
 
 .cloud-2 {
-  height: 12%;
+/*   height: 12%;
   width: 12%;
   position: absolute;
   left: 15%;
-  bottom: 50%;
+  bottom: 50%; */
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+  width: 12%;
 }
 
 /* Mountain Image */
@@ -219,7 +227,7 @@ hr {
   }
   
   .contact-text {
-    padding: 0 30px 0;
+    padding: 20px;
   }
 
   .final-hr {
