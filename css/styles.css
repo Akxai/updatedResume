@@ -189,10 +189,12 @@ hr {
 @media (max-width:900px){
   .cloud-1 {
     width: 0;
+    visibility: hidden;
   }
 
   .cloud-2 {
     width: 0;
+    visibility: hidden;
   }
 
   .mountain-image {
