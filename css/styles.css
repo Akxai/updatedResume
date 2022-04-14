@@ -177,6 +177,29 @@ hr {
   text-decoration: none;
   color: #F3F1F5;
   margin: 20px;
+  display: inline-block;
+  font-size: 20px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.twitter {
+  animation-delay: 1s;
+}
+
+.old-resume {
+  animation-delay: 2s;
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 .footer-link:hover {
