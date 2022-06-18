@@ -2,7 +2,7 @@ body {
   color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat Alternates", serif;
   background-color: #F3F1F5;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png"); 
 }
@@ -31,6 +31,7 @@ h2 {
 
 h3 {
   font-family: monospace;
+  font-weight: normal;
   color: #2F3A8F;
 }
 
