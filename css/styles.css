@@ -210,6 +210,29 @@ hr {
   padding: 20px 0 0 0;
 }
 
+/* Carousel */
+
+.carousel {
+  width: 250px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.carousel-inner{
+   height: 300px;
+   width: 250px;
+   border-radius: 50px;
+}
+
+.project-title {
+  background-color: #F7EC09;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  border-radius: 15px 50px 30px;
+}
+
+
 @media (max-width:900px){
   .cloud-1 {
     width: 0;
