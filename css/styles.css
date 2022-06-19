@@ -26,12 +26,13 @@ h1 {
 
 h2 {
   color: #2F3A8F;
-  font-weight: normal;
+  font-weight: 600;
+  font-family: "Montserrat Alternates", serif;
 }
 
 h3 {
   font-family: monospace;
-  font-weight: 700;
+  font-weight: 500;
   color: #2F3A8F;
 }
 
