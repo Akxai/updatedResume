@@ -27,12 +27,13 @@ h1 {
 h2 {
   color: #2F3A8F;
   font-weight: 600;
+  font-size: 25px;
   font-family: "Montserrat", serif;
 }
 
 h3 {
   font-family: monospace;
-  font-weight: 500;
+  font-weight: 400;
   color: #2F3A8F;
 }
 
