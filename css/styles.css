@@ -168,11 +168,9 @@ hr {
   text-decoration: none;
 }
 
-.final-hr {
-  width: 13%;
-  border-style: inset;
-  border-width: thin;
-  margin: 0 auto 20px auto;
+.info {
+  padding: 2px;
+  border-bottom: 1px solid black;
 }
 
 /* Footer Links */
