@@ -173,6 +173,7 @@ hr {
   border-style: none none solid none;
   border-color: black;
   border-width: 2px;
+  border-radius: 0;
 }
 
 /* Footer Links */
