@@ -170,7 +170,7 @@ hr {
 
 .info {
   padding: 2px;
-  border: none none solid none;
+  border-style: none none solid none;
   border-color: black;
   border-width: 2px;
 }
