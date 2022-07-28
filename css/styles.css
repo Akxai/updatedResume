@@ -170,7 +170,9 @@ hr {
 
 .info {
   padding: 2px;
-  border-bottom: 1px solid black;
+  border: none none solid none;
+  border-color: black;
+  border-width: 2px;
 }
 
 /* Footer Links */
