@@ -176,6 +176,14 @@ hr {
   border-radius: 0;
 }
 
+.fas {
+  transition: transform 1s;
+}
+
+.fas:hover {
+  transform: translateX(10px);
+}
+
 /* Footer Links */
 
 .footer-link {
