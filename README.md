@@ -4,4 +4,4 @@ I've added all the required files, you can download it and update it with your o
 ## And if there's any Bugs or Errors do lemme know.
 
 
-link to my resume: https://akshay-git-007.github.io/updatedResume/ ;
+link to my resume: https://akxai.github.io/updatedResume/ ;
